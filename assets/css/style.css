@@ -1,0 +1,71 @@
+body {
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+    position: relative;
+    margin: 0;
+    padding-bottom: 50px;
+    min-height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.bgw {
+    background-color: white;
+    border: black 1px solid;
+}
+.bg-dark {
+background-color: rgb(0, 104, 104)!important;
+}
+
+.img-thumbnail {
+    height: 200px; 
+    width: 200px;
+
+}
+.bullet {
+    display: flex;
+    font-size: 14pt;
+}
+
+.banner {
+    color: white;
+    background: #38a7a7;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #eee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media screen and (max-width: 992px) {
+    selector {
+      property:value;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    selector {
+      property:value;
+    }
+  }
