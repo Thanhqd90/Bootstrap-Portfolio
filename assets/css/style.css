@@ -16,11 +16,6 @@ body {
 background-color: rgb(0, 104, 104)!important;
 }
 
-.img-thumbnail {
-    height: 200px; 
-    width: 200px;
-
-}
 .bullet {
     display: flex;
     font-size: 14pt;
